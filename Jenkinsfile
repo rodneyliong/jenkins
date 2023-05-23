@@ -6,12 +6,8 @@ pipeline {
         stage("Build") {
             steps {
                 echo 'building the application'
-            }
-        }
-
-        stage("test") {
-            steps {
-                echo 'testing the application'
+				sh C:\Users\weichong.liong\Desktop\GIT_scripts_DM\shelltest.sh
+				
             }
         }
 
